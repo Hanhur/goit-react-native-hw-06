@@ -1,27 +1,20 @@
 import { initializeApp } from 'firebase/app';
-import AsyncStorage from '@react-native-async-storage/async-storage';
-import { getReactNativePersistence, initializeAuth } from 'firebase/auth/react-native';
+import { getAuth } from 'firebase/auth';
 import { getFirestore } from 'firebase/firestore';
 import { getStorage } from 'firebase/storage';
-import 'firebase/compat/auth';
-import { getAuth } from 'firebase/auth';
-import 'firebase/auth';
 
 const firebaseConfig = {
-    apiKey: 'AIzaSyB1YRizHEKH8AMLu7EtBwLcmNfqSM3pH98',
-    authDomain: 'goit-react-native-1.firebaseapp.com',
-    projectId: 'goit-react-native-1',
-    storageBucket: 'goit-react-native-1.appspot.com',
-    messagingSenderId: '78873247793',
-    appId: '1:78873247793:web:d65a6923dbd40f85d81510',
-};
+    apiKey: 'AIzaSyCMcdUaEDJktVs2JFrOKcOJ_me4u099iqI',
+    authDomain: 'react-navite-project.firebaseapp.com',
+    databaseURL: 'https://react-navite-project-default-rtdb.firebaseio.com',
+    projectId: 'react-navite-project',
+    storageBucket: 'react-navite-project.appspot.com',
+    messagingSenderId: '1005385745744',
+    appId: '1:1005385745744:web:33283ba180400ef72e1855',
+    measurementId: 'G-66C25NW3Y4',
+}
 
-export const app = initializeApp(firebaseConfig);
-
-initializeAuth(app, {
-    persistence: getReactNativePersistence(AsyncStorage),
-});
-
+const app = initializeApp(firebaseConfig);
 export const auth = getAuth(app);
-export const myStorage = getStorage(app);
 export const db = getFirestore(app);
+export const storage = getStorage(app);
