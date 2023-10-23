@@ -1,8 +1,8 @@
 {
     "expo": {
-        "name": "react-native-project",
-        "slug": "react-native-project",
         "jsEngine": "hermes",
+        "name": "goit-react-native-hw",
+        "slug": "goit-react-native-hw",
         "version": "1.0.0",
         "orientation": "portrait",
         "icon": "./assets/icon.png",
@@ -10,40 +10,35 @@
         "splash": {
             "image": "./assets/splash.png",
             "resizeMode": "contain",
-            "backgroundColor": "#ffffff"
+            "backgroundColor": "#ffffff",
+            "permissions": [
+                "CAMERA",
+                "LOCATION"
+            ]
         },
         "assetBundlePatterns": [
             "**/*"
         ],
-        "packagerOpts": {
-            "sourceExts": [
-                "js",
-                "json",
-                "ts",
-                "tsx",
-                "jsx",
-                "vue"
-            ]
-        },
         "ios": {
             "supportsTablet": true,
-            "jsEngine": "jsc"
+            "bundleIdentifier": "y"
         },
         "android": {
+            "softwareKeyboardLayoutMode": "pan",
             "adaptiveIcon": {
                 "foregroundImage": "./assets/adaptive-icon.png",
                 "backgroundColor": "#ffffff"
             },
-            "jsEngine": "jsc",
-            "package": "com.nmg.reactnativeproject"
+            "package": "com.viktor_svertoka.goitreactnativehw"
         },
         "web": {
             "favicon": "./assets/favicon.png"
         },
         "extra": {
             "eas": {
-                "projectId": "8c5e6f73-92c0-4daa-84f9-c9591224f9b1"
+                "projectId": "502863e7-7878-4d03-9825-21b864471ec3"
             }
-        }
+        },
+        "owner": "viktor_svertoka"
     }
 }
