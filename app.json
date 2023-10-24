@@ -1,44 +1,44 @@
 {
-    "expo": {
-        "jsEngine": "hermes",
-        "name": "goit-react-native-hw",
-        "slug": "goit-react-native-hw",
-        "version": "1.0.0",
-        "orientation": "portrait",
-        "icon": "./assets/icon.png",
-        "userInterfaceStyle": "light",
-        "splash": {
-            "image": "./assets/splash.png",
-            "resizeMode": "contain",
-            "backgroundColor": "#ffffff",
-            "permissions": [
-                "CAMERA",
-                "LOCATION"
-            ]
-        },
-        "assetBundlePatterns": [
-            "**/*"
-        ],
-        "ios": {
-            "supportsTablet": true,
-            "bundleIdentifier": "y"
-        },
-        "android": {
-            "softwareKeyboardLayoutMode": "pan",
-            "adaptiveIcon": {
-                "foregroundImage": "./assets/adaptive-icon.png",
-                "backgroundColor": "#ffffff"
-            },
-            "package": "com.viktor_svertoka.goitreactnativehw"
-        },
-        "web": {
-            "favicon": "./assets/favicon.png"
-        },
-        "extra": {
-            "eas": {
-                "projectId": "502863e7-7878-4d03-9825-21b864471ec3"
-            }
-        },
-        "owner": "viktor_svertoka"
-    }
+  "expo": {
+    "jsEngine": "hermes",
+    "name": "goit-react-native-hw-06",
+    "slug": "eas-cli",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff",
+      "permissions": [
+        "CAMERA",
+        "LOCATION"
+      ]
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "y"
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.hanhur.eascli"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d300c963-caa7-4922-8e26-810c6827200f"
+      }
+    },
+    "owner": "hanhur"
+  }
 }
