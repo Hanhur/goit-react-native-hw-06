@@ -7,6 +7,9 @@
             "developmentClient": true,
             "distribution": "internal"
         },
+        "your-build-profile": {
+            "releaseChannel": "your-channel"
+        },
         "preview": {
             "android": {
                 "buildType": "apk"
@@ -14,9 +17,12 @@
             "ios": {
                 "simulator": "true"
             },
+            "channel": "preview",
             "distribution": "internal"
         },
-        "production": {}
+        "production": {
+            "channel": "production"
+        }
     },
     "submit": {
         "production": {}
